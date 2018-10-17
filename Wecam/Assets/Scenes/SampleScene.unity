@@ -618,6 +618,8 @@ GameObject:
   - component: {fileID: 1118497708}
   - component: {fileID: 1118497707}
   - component: {fileID: 1118497712}
+  - component: {fileID: 1118497714}
+  - component: {fileID: 1118497713}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: Untagged
@@ -722,6 +724,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mSpeed: 0
+--- !u!114 &1118497713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1118497706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbba46875f42d084fbe0311d6243a710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1118497714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1118497706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portName: COM5
+  baudRate: 9600
+  messageListener: {fileID: 1118497706}
+  reconnectionDelay: 1000
+  maxUnreadMessages: 1
 --- !u!1 &1187558983
 GameObject:
   m_ObjectHideFlags: 0
