@@ -32,7 +32,7 @@ public class SerialComm : MonoBehaviour {
                 pitch = float.Parse(vec3[2]);
                 roll = float.Parse(vec3[3]);
 
-                //print(yaw + ", " + pitch + ", " + roll);
+                print(yaw + ", " + pitch + ", " + roll);
 
                 float difYaw = yaw - lastRot[0];
                 float difPitch = pitch - lastRot[1];
@@ -56,7 +56,7 @@ public class SerialComm : MonoBehaviour {
                 lastPitch = arrow_pitch.position.y;
                 //Debug.Log("hud: " + hudRoll + ", roll: " + roll + ", lastRoll: " + lastRoll);
                 //Debug.Log("art: " + difYaw + ", " + difPitch + ", " + difRoll);
-                Debug.Log("ptc: " + mvPitch + ", " + pitch + ", " + lastPitch + ", " + hudpitch);
+                //Debug.Log("ptc: " + mvPitch + ", " + pitch + ", " + lastPitch + ", " + hudpitch);
             }
         }
     }

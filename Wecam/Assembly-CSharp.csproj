@@ -72,7 +72,9 @@
     <Compile Include="Assets\Ardity\Scripts\Threads\SerialThread.cs" />
     <Compile Include="Assets\Ardity\Scripts\Threads\SerialThreadCustomDelimiter.cs" />
     <Compile Include="Assets\Ardity\Scripts\Threads\SerialThreadLines.cs" />
+    <Compile Include="Assets\FligthController.cs" />
     <Compile Include="Assets\MoveCameraScript.cs" />
+    <Compile Include="Assets\PipeServer.cs" />
     <Compile Include="Assets\SerialComm.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />

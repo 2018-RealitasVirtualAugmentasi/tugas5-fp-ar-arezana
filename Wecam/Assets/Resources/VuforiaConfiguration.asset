@@ -63,7 +63,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: USB2.0 PC CAMERA
+    deviceNameSetInEditor: BisonCam, NB Pro
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
